@@ -1,0 +1,4 @@
+ // ,
+    // "workspaces": {
+    //   "nohoist": ["typeorm", "typeorm/**"]
+    // }
