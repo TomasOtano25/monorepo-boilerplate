@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "outDir": "build/lib",
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "es2016", "esnext.asynciterable"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "rootDirs": ["src", "stories"],
+    // delete
+    // "experimentalDecorators": true,
+    // "noUnusedLocals": true,
+    // "suppressImplicitAnyIndexErrors": true,
+    // "strictNullChecks": true,
+    // "noImplicitAny": true,
+    // "noImplicitThis": true,
+    // "noImplicitReturns": true,
+    // "baseUrl": "src"
+  },
+  "include": [
+    "src/**/*",
+    "stories"
+  ],
+  "exclude": [
+    "node_modules", 
+    "build",
+    "scripts"
+  ]
+}

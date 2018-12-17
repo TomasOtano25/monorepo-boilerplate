@@ -1,0 +1,45 @@
+{
+  "name": "ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "23.3.10",
+    "@types/node": "10.12.15",
+    "@types/react": "16.7.17",
+    "@types/react-dom": "16.0.11",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "styled-components": "^4.1.2",
+    "typescript": "3.2.2"
+  },
+  "scripts": {
+    "start": "styleguidist server",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/addon-actions": "^4.1.2",
+    "@storybook/addon-info": "^4.1.2",
+    "@storybook/addon-links": "^4.1.2",
+    "@storybook/addons": "^4.1.2",
+    "@storybook/react": "^4.1.2",
+    "@types/storybook__addon-actions": "^3.4.1",
+    "@types/storybook__addon-links": "^3.3.3",
+    "@types/storybook__react": "^4.0.0",
+    "@types/styled-components": "^4.1.4",
+    "babel-loader": "^8.0.4",
+    "react-docgen-typescript": "^1.12.2",
+    "react-styleguidist": "^8.0.6"
+  }
+}

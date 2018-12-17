@@ -1,4 +1,1 @@
- // ,
-    // "workspaces": {
-    //   "nohoist": ["typeorm", "typeorm/**"]
-    // }
+npx create-react-app ui typescript
