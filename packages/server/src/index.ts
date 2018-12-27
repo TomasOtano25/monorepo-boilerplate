@@ -49,6 +49,7 @@ const startServer = async () => {
 
   app.use((req, _, next) => {
     const authorization = req.headers.authorization;
+    
     if (authorization) {
       try {
         const qid = authorization.split(" ")[1];

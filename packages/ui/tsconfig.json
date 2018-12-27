@@ -20,7 +20,7 @@
 
     "esModuleInterop": true,
     "strict": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
     // "isolatedModules": true,
     // "noEmit": true,
 
@@ -30,14 +30,8 @@
     // "strictNullChecks": true,
     // "noImplicitAny": true,
     // "noImplicitThis": true,
-    // "noImplicitReturns": true,
+    // "noImplicitReturns": true
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules", 
-    "build",
-    "scripts"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "scripts"]
 }
