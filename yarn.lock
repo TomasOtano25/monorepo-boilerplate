@@ -2504,7 +2504,7 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/graphql@^14.0.2", "@types/graphql@^14.0.3":
+"@types/graphql@^14.0.3":
   version "14.0.3"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-14.0.3.tgz#389e2e5b83ecdb376d9f98fae2094297bc112c1c"
   integrity sha512-TcFkpEjcQK7w8OcrQcd7iIBPjU0rdyi3ldj6d0iJ4PPSzbWqPBvXj9KSwO14hTOX2dm9RoiH7VuxksJLNYdXUQ==
@@ -2567,10 +2567,15 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@10.12.15", "@types/node@^10.1.0", "@types/node@^10.11.7", "@types/node@^10.12.9":
+"@types/node@*", "@types/node@10.12.15", "@types/node@^10.1.0", "@types/node@^10.12.9":
   version "10.12.15"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.15.tgz#20e85651b62fd86656e57c9c9bc771ab1570bc59"
   integrity sha512-9kROxduaN98QghwwHmxXO2Xz3MaWf+I1sLVAA6KJDF5xix+IyXVhds0MAfdNwtcpSrzhaTsNB0/jnL86fgUhqA==
+
+"@types/node@^11.9.4":
+  version "11.10.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.10.4.tgz#3f5fc4f0f322805f009e00ab35a2ff3d6b778e42"
+  integrity sha512-wa09itaLE8L705aXd8F80jnFpxz3Y1/KRHfKsYL2bPc0XF+wEWu8sR9n5bmeu8Ba1N9z2GRNzm/YdHcghLkLKg==
 
 "@types/passport-github@^1.1.3":
   version "1.1.3"
@@ -2644,6 +2649,11 @@
   integrity sha512-o/1ufNVPA92uum9HFbEiXXIHBuLywSwHQtAZoACMc1FhPXS5YftybBC1EI0zjdbUb273VVWF0Ivll/bq4g+gyw==
   dependencies:
     "@types/node" "*"
+
+"@types/semver@^5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@types/semver/-/semver-5.5.0.tgz#146c2a29ee7d3bae4bf2fcb274636e264c813c45"
+  integrity sha512-41qEJgBH/TWgo5NFSvBCJ1qkoi3Q6ONSF2avrHq1LVEZfYpdHmj0y9SuTK+u9ZhG1sYQKBL1AWXKyLWP4RaUoQ==
 
 "@types/serve-static@*":
   version "1.13.2"
@@ -8560,10 +8570,10 @@ graphql-import@0.7.1, graphql-import@^0.7.1:
     lodash "^4.17.4"
     resolve-from "^4.0.0"
 
-graphql-query-complexity@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/graphql-query-complexity/-/graphql-query-complexity-0.2.2.tgz#c90951b4cdb88a35e9595e833b9cd7fb6294983c"
-  integrity sha512-Z2MEPILOZo7B6Tpa/Fct4h0cLZj7MwPRZftN+3x9my5IIEEh6BlOmPr74/wM3uaGrOWLCDXYPQ46Hvli2YM3eg==
+graphql-query-complexity@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/graphql-query-complexity/-/graphql-query-complexity-0.2.3.tgz#ca26790fd5d22cb3d4ca8f43d19605929d8cf27f"
+  integrity sha512-XLvEsqGTJmJmgof8u5NjIkBHL75b4Inw1F8JQ3jGRBhr3hVFx6aWOTL7C2aknp1uIh8dRmqwzrb9gas2NLHnfA==
   dependencies:
     lodash.get "^4.4.2"
 
@@ -8633,7 +8643,7 @@ graphql-upload@^8.0.2:
     http-errors "^1.7.1"
     object-path "^0.11.4"
 
-graphql@^14.0.2:
+graphql@14.0.2, graphql@^14.0.2:
   version "14.0.2"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.0.2.tgz#7dded337a4c3fd2d075692323384034b357f5650"
   integrity sha512-gUC4YYsaiSJT1h40krG3J+USGlwhzNTXSb4IOZljn9ag5Tj+RkoXrWp+Kh7WyE3t1NCfab5kzCuxBIvOMERMXw==
@@ -16565,19 +16575,19 @@ type-detect@^4.0.8:
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
-type-graphql@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/type-graphql/-/type-graphql-0.15.0.tgz#755483d8350635334bb6b71305adbafb0445d04b"
-  integrity sha512-WJbumeTYsycwSqqJQ4cfWXKCh0siApcL2UqR6NKkZPK8PhD4C5fsu00Vohu+Q6+SeDq0f89HxIPQEDSHX5WTJA==
+type-graphql@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/type-graphql/-/type-graphql-0.17.0.tgz#7a9b1cd91f84064b8150dacbbb232d2dbdbdcba2"
+  integrity sha512-eUPH8l5bjR7dSs09mEmRHY4aoMint8PiT0WAZDmDgbqd9fsaoMh6OvHHv92vDOzHf2L91pjUbMyrEb8ejceMpg==
   dependencies:
     "@types/glob" "^7.1.1"
-    "@types/graphql" "^14.0.2"
-    "@types/node" "^10.11.7"
+    "@types/node" "^11.9.4"
+    "@types/semver" "^5.5.0"
     class-validator ">=0.9.1"
     glob "^7.1.3"
-    graphql "^14.0.2"
-    graphql-query-complexity "^0.2.2"
+    graphql-query-complexity "^0.2.3"
     graphql-subscriptions "^1.0.0"
+    semver "^5.6.0"
     tslib "^1.9.3"
 
 type-is@^1.6.16, type-is@~1.6.16:
