@@ -36,7 +36,7 @@
     "graphql-codegen-typescript-react-apollo": "^0.14.1",
     "lerna": "^3.4.3",
     "nodemon": "^1.18.9",
-    "ts-node": "^7.0.1",
+    "ts-node": "^8.0.0",
     "typescript": "3.1.6",
     "url-loader": "^1.1.2"
   },
